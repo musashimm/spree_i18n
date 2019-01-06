@@ -76,6 +76,7 @@ pl:
         name: Nazwa
       spree/product:
         available_on: Dostępne od
+        discontinue_on: Dostępne do
         cost_currency: Waluta kosztu
         cost_price: Cena kosztu
         description: Opis
@@ -463,6 +464,7 @@ pl:
     authorized:
     auto_capture:
     available_on: Dostępne od
+    discontinue_on: Dostępne do
     average_order_value:
     avs_response:
     back: Powrót
@@ -781,7 +783,7 @@ pl:
     master_price: Cena główna
     match_choices:
       all: Wszystkie
-      none: Nic
+      none: Żadne
     max_items: Maksymalna ilość pozycji
     member_since: Członek od
     memo:
@@ -848,6 +850,7 @@ pl:
     none: Brak
     none_selected:
     normal_amount: Zwykład ilość
+    available: 'Dostępny'
     not: nie
     not_available: Niedostępne
     not_enough_stock: Zbyt mała ilość towaru w lokalizacji źródłowej, by dokończyć to przeniesienie.
@@ -871,6 +874,8 @@ pl:
     option_values: Wartości opcji
     optional: Opcjonalny
     options: Opcje
+    tags: 'Etykiety'
+    tags_placeholder: 'Wybierz etykietę'
     or: lub
     or_over_price: "%{price} lub więcej"
     order: Zamówienie
@@ -1199,7 +1204,7 @@ pl:
     show_rate_in_label: Pokaż stawkę w etykiecie
     sku: SKU
     skus:
-    slug:
+    slug: 'Odnośnik'
     source: "Źródło"
     special_instructions: Specjalne instrukcje
     split: Podziel
