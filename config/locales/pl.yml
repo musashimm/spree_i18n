@@ -2,166 +2,172 @@ pl:
   activerecord:
     attributes:
       spree/address:
+        abbr: Skrót
         address1: Adres
+        address1: Ulica do wysyłki
+        address1: Ulica na fakturze
         address2: Adres (cd.)
+        advertise: Zareklamuj
+        amount: Ilość
+      spree/role:
+        amount: Stawka
+        amount: Wartość
+      spree/payment_method:
+        available_on: Dostępne od
+        base: Baza
+        cc_type: Typ
+        checkout_complete: Zamówienie zakończone
         city: Miasto
+        city: Miasto do wysyłki
+        city: Miasto na fakturze
+        code: Kod
+        completed_at: Zakończone o
+        considered_risky: Ryzykowne
+        cost_currency: Waluta kosztu
+        cost_currency: Waluta kosztu
+        cost_price: Cena kosztu
+        cost_price: Cena kosztu
         country: Państwo
+        coupon_code: Kod kuponu
+        created_at: Data zamówienia
+        depth: Długość
+        description: Opis
+        description: Opis
+        description: Opis
+        description: Opis
+        discontinue_on: Dostępne do
+        email: E-mail
+        email: E-mail klienta
+        event_name: Nazwa zdarzenia
+        expires_at: Data wygaśnięcia
         firstname: Imię
-        lastname: Nazwisko
-        phone: Telefon
-        state: Województwo
-        zipcode: Kod pocztowy
-      spree/calculator/tiered_flat_rate:
-        preferred_base_amount: Preferowana podstawowa kwota
-        preferred_tiers: Preferowane poziomy
-      spree/calculator/tiered_percent:
-        preferred_base_percent: Preferowany podstawowy procent
-        preferred_tiers: Preferowane poziomy
-      spree/country:
+        firstname: Imię do wysyłki
+        firstname: Imię na fakturze
+        height: Wysokość
+        included_in_price: Ujęty w cenie
+        ip_address: Adres IP
         iso: ISO
         iso3: ISO3
         iso_name: Nazwa ISO
-        name: Nazwa
-        numcode: Kod ISO
-      spree/credit_card:
-        base: Baza
-        cc_type: Typ
+        item_total: Towar razem
+        lastname: Nazwisko
+        lastname: Nazwisko do wysyłki
+        lastname: Nazwisko na fakturze
+        mail_from_address: Adres email nadawcy
+        master_price: Cena podstawowa
+        meta_description: Meta opis
+        meta_keywords: Meta słowa kluczowe
         month: Miesiąc
         name: Nazwa
-        number: Numer
-        verification_value: Wartość weryfikacyjna
-        year: Rok
-      spree/inventory_unit:
-        state: Stan
-      spree/line_item:
-        price: Cena
-        quantity: Ilość
-      spree/option_type:
         name: Nazwa
-        presentation: Prezentacja
-      spree/order:
-        checkout_complete: Zamówienie zakończone
-        completed_at: Zakończone o
-        considered_risky: Ryzykowne
-        coupon_code: Kod kuponu
-        created_at: Data zamówienia
-        email: E-mail klienta
-        ip_address: Adres IP
-        item_total: Towar razem
-        number: Ilość
-        payment_state: Stan płatności
-        shipment_state: Stan wysyłki
-        special_instructions: Specjalne instrukcje
-        state: Stan
-        total: Razem
-      spree/order/bill_address:
-        address1: Ulica na fakturze
-        city: Miasto na fakturze
-        firstname: Imię na fakturze
-        lastname: Nazwisko na fakturze
-        phone: Telefon na fakturze
-        state: Województwo na fakturze
-        zipcode: Kod pocztowy na fakturze
-      spree/order/ship_address:
-        address1: Ulica do wysyłki
-        city: Miasto do wysyłki
-        firstname: Imię do wysyłki
-        lastname: Nazwisko do wysyłki
-        phone: Telefon do wysyłki
-        state: Województwo do wysyłki
-        zipcode: Kod pocztowy do wysyłki
-      spree/payment:
-        amount: Wartość
-      spree/payment_method:
+        name: Nazwa
+        name: Nazwa
+        name: Nazwa
+        name: Nazwa
+        name: Nazwa
+        name: Nazwa
+        name: Nazwa
         name: Nazwa
       spree/product:
-        available_on: Dostępne od
-        discontinue_on: Dostępne do
-        cost_currency: Waluta kosztu
-        cost_price: Cena kosztu
-        description: Opis
-        master_price: Cena podstawowa
-        name: Nazwa
-        on_hand: W magazynie
-        shipping_category: Kategoria wysyłki
-        tax_category: Kategoria podatku
-      spree/promotion:
-        advertise: Zareklamuj
-        code: Kod
-        description: Opis
-        event_name: Nazwa zdarzenia
-        expires_at: Data wygaśnięcia
-        name: Nazwa
-        path: "Ścieżka"
-        starts_at: Data rozpoczęcia
-        usage_limit: Limit wykorzystania
-      spree/promotion_category:
         name: Nazwa
       spree/property:
         name: Nazwa
-        presentation: Prezentacja
-      spree/prototype:
-        name: Nazwa
       spree/return_authorization:
-        amount: Ilość
-      spree/role:
         name: Nazwa
       spree/state:
-        abbr: Skrót
         name: Nazwa
       spree/state_change:
-        state_changes: Zmiany stanu
-        state_from: Stan początkowy
-        state_to: Stan końcowy
-        timestamp: Znacznik czasu
-        type: Typ
-        updated: Data wystąpienia
-        user: Użytkownik
-      spree/store:
-        mail_from_address: Adres email nadawcy
-        meta_description: Meta opis
-        meta_keywords: Meta słowa kluczowe
-        name: Nazwa
-        seo_title: Tytuł SEO
-        url: URL
-      spree/tax_category:
-        description: Opis
         name: Nazwa
       spree/tax_rate:
-        amount: Stawka
-        included_in_price: Ujęty w cenie
-        show_rate_in_label: Pokaż stawkę w etykiecie
-      spree/taxon:
-        name: Nazwa
-        permalink: Stały link
-        position: Pozycja
-      spree/taxonomy:
         name: Nazwa
       spree/user:
-        email: E-mail
+        number: Ilość
+        number: Numer
+        numcode: Kod ISO
+      spree/credit_card:
+        on_hand: W magazynie
         password: Hasło
         password_confirmation: Potwierdzenie hasła
       spree/variant:
-        cost_currency: Waluta kosztu
-        cost_price: Cena kosztu
-        depth: Długość
-        height: Wysokość
+        path: "Ścieżka"
+        payment_state: Stan płatności
+        permalink: Stały link
+        phone: Telefon
+        phone: Telefon do wysyłki
+        phone: Telefon na fakturze
+        position: Pozycja
+      spree/taxonomy:
+        preferred_base_amount: Preferowana podstawowa kwota
+        preferred_base_percent: Preferowany podstawowy procent
+        preferred_tiers: Preferowane poziomy
+      spree/calculator/tiered_percent:
+        preferred_tiers: Preferowane poziomy
+      spree/country:
+        presentation: Prezentacja
+      spree/order:
+        presentation: Prezentacja
+      spree/prototype:
         price: Cena
+        price: Cena
+        quantity: Ilość
+      spree/option_type:
+        seo_title: Tytuł SEO
+        shipment_state: Stan wysyłki
+        shipping_category: Kategoria wysyłki
+        show_rate_in_label: Pokaż stawkę w etykiecie
+      spree/taxon:
         sku: SKU
+        special_instructions: Specjalne instrukcje
+        starts_at: Data rozpoczęcia
+        state: Stan
+        state: Stan
+      spree/line_item:
+        state: Województwo
+        state: Województwo do wysyłki
+        state: Województwo na fakturze
+        state_changes: Zmiany stanu
+        state_from: Stan początkowy
+        state_to: Stan końcowy
+        tax_category: Kategoria podatku
+      spree/promotion:
+        timestamp: Znacznik czasu
+        total: Razem
+      spree/order/bill_address:
+        type: Typ
+        updated: Data wystąpienia
+        url: URL
+      spree/tax_category:
+        usage_limit: Limit wykorzystania
+      spree/promotion_category:
+        user: Użytkownik
+      spree/store:
+        verification_value: Wartość weryfikacyjna
         weight: Waga
         width: Szerość
       spree/zone:
-        description: Opis
-        name: Nazwa
+        year: Rok
+      spree/inventory_unit:
+        zipcode: Kod pocztowy
+      spree/calculator/tiered_flat_rate:
+        zipcode: Kod pocztowy do wysyłki
+      spree/payment:
+        zipcode: Kod pocztowy na fakturze
+      spree/order/ship_address:
     errors:
       models:
         spree/calculator/tiered_flat_rate:
           attributes:
+            amount:
+              greater_than_allowed:
+        spree/reimbursement:
+          attributes:
             base:
-              keys_should_be_positive_number:
-            preferred_tiers:
-              should_be_hash:
-        spree/calculator/tiered_percent:
+              cannot_destroy_default_store:
+          attributes:
+            base:
+              card_expired: Ważność karty wygasła
+              expiry_invalid: Nieprawidłowa data wygaśnięcia ważności karty
+        spree/line_item:
           attributes:
             base:
               keys_should_be_positive_number:
@@ -170,26 +176,19 @@ pl:
               should_be_hash:
         spree/classification:
           attributes:
-            taxon_id:
-              already_linked:
-        spree/credit_card:
-          attributes:
             base:
-              card_expired: Ważność karty wygasła
-              expiry_invalid: Nieprawidłowa data wygaśnięcia ważności karty
-        spree/line_item:
-          attributes:
-            currency:
-              must_match_order_currency:
-        spree/refund:
-          attributes:
-            amount:
-              greater_than_allowed:
-        spree/reimbursement:
+              keys_should_be_positive_number:
+            preferred_tiers:
+              should_be_hash:
+        spree/calculator/tiered_percent:
           attributes:
             base:
               return_items_order_id_does_not_match:
         spree/return_item:
+          attributes:
+            currency:
+              must_match_order_currency:
+        spree/refund:
           attributes:
             inventory_unit:
               other_completed_return_item_exists:
@@ -197,119 +196,120 @@ pl:
               cannot_be_associated_unless_accepted:
         spree/store:
           attributes:
-            base:
-              cannot_destroy_default_store:
+            taxon_id:
+              already_linked:
+        spree/credit_card:
     models:
       spree/address:
+        one:  Transfer zapasu magazynowego
         one: Adres
+        one: Autoryzacja zwrotna
+        one: Jednostka linii
+        one: Jednostka magazynowa
+        one: Karta kredytowa
+        one: Kategoria podatku
+        one: Kategoria promocji
+        one: Kategoria wysyłki
+        one: Kraj
+        one: Lokalizacja magazynu
+        one: Odmiana
+        one: Powód autoryzacji zwrotnej
+        one: Powód do zwrotu
+        one: Produkt
+        one: Promocja
+        one: Prototyp
+        one: Przemieszczenie zapasu magazynowego
+        one: Płatność
+        one: Rodzaj zwrotu
+        one: Rola
+        one: Sposób wysyłki
+        one: Stan
+        one: Stawka podatku
+        one: Strefa
+        one: Takson
+        one: Taksonomia
+        one: Typ opcji
+        one: Użytkownik
+        one: Wartość opcji
+        one: Wysyłka
+        one: Własność
+        one: Zamówienie
+        one: Zmiana stanu
+        one: Zwrot klienta
+        one: Zwrot kosztów
         other: Adresy
       spree/country:
-        one: Kraj
-        other: Kraje
-      spree/credit_card:
-        one: Karta kredytowa
-        other: Karty kredytowe
-      spree/customer_return:
-        one: Zwrot klienta
-        other: Zworoty klienta
-      spree/inventory_unit:
-        one: Jednostka magazynowa
-        other: Jednostki magazynowe
-      spree/line_item:
-        one: Jednostka linii
+        other: Autoryzacje zwrotne
+      spree/return_authorization_reason:
         other: Jednostki linii
       spree/option_type:
-        one: Typ opcji
-        other: Typy opcji
-      spree/option_value:
-        one: Wartość opcji
-        other: Wartości opcji
-      spree/order:
-        one: Zamówienie
-        other: Zamówienia
-      spree/payment:
-        one: Płatność
+        other: Jednostki magazynowe
+      spree/line_item:
+        other: Karty kredytowe
+      spree/customer_return:
+        other: Kategorie podatku
+      spree/tax_rate:
+        other: Kategorie promocji
+      spree/property:
+        other: Kategorie wysyłki
+      spree/shipping_method:
+        other: Kraje
+      spree/credit_card:
+        other: Lokalizacje magazynu
+      spree/stock_movement:
+        other: Odmiany
+      spree/zone:
+        other: Powody autoryzacji zwrotnej
+      spree/role:
+        other: Powody do zwrotu
+      spree/reimbursement:
+        other: Produkty
+      spree/promotion:
+        other: Promocje
+      spree/promotion_category:
+        other: Prototypy
+      spree/refund_reason:
+        other: Przemieszczenia zapasu magazynowego
+      spree/stock_transfer:
         other: Płatności
       spree/payment_method:
       spree/product:
-        one: Produkt
-        other: Produkty
-      spree/promotion:
-        one: Promocja
-        other: Promocje
-      spree/promotion_category:
-        one: Kategoria promocji
-        other: Kategorie promocji
-      spree/property:
-        one: Własność
-        other: Własności
-      spree/prototype:
-        one: Prototyp
-        other: Prototypy
-      spree/refund_reason:
-        one: Powód do zwrotu
-        other: Powody do zwrotu
-      spree/reimbursement:
-        one: Zwrot kosztów
-        other: Zwroty kosztów
-      spree/reimbursement_type:
-        one: Rodzaj zwrotu
         other: Rodzaje zwrotu
       spree/return_authorization:
-        one: Autoryzacja zwrotna
-        other: Autoryzacje zwrotne
-      spree/return_authorization_reason:
-        one: Powód autoryzacji zwrotnej
-        other: Powody autoryzacji zwrotnej
-      spree/role:
-        one: Rola
         other: Role
       spree/shipment:
-        one: Wysyłka
-        other: Wysyłki
-      spree/shipping_category:
-        one: Kategoria wysyłki
-        other: Kategorie wysyłki
-      spree/shipping_method:
-        one: Sposób wysyłki
         other: Sposoby wysyłki
       spree/state:
-        one: Stan
         other: Stany
       spree/state_change:
-        one: Zmiana stanu
-        other: Zmiany stanu
-      spree/stock_location:
-        one: Lokalizacja magazynu
-        other: Lokalizacje magazynu
-      spree/stock_movement:
-        one: Przemieszczenie zapasu magazynowego
-        other: Przemieszczenia zapasu magazynowego
-      spree/stock_transfer:
-        one:  Transfer zapasu magazynowego
-        other: Transfery zapasu magazynowego
-      spree/tax_category:
-        one: Kategoria podatku
-        other: Kategorie podatku
-      spree/tax_rate:
-        one: Stawka podatku
         other: Stawki podatku
       spree/taxon:
-        one: Takson
-        other: Taksony
-      spree/taxonomy:
-        one: Taksonomia
+        other: Strefy
         other: Taksonomie
       spree/tracker:
       spree/user:
-        one: Użytkownik
+        other: Taksony
+      spree/taxonomy:
+        other: Transfery zapasu magazynowego
+      spree/tax_category:
+        other: Typy opcji
+      spree/option_value:
         other: Użytkownicy
       spree/variant:
-        one: Odmiana
-        other: Odmiany
-      spree/zone:
-        one: Strefa
-        other: Strefy
+        other: Wartości opcji
+      spree/order:
+        other: Wysyłki
+      spree/shipping_category:
+        other: Własności
+      spree/prototype:
+        other: Zamówienia
+      spree/payment:
+        other: Zmiany stanu
+      spree/stock_location:
+        other: Zworoty klienta
+      spree/inventory_unit:
+        other: Zwroty kosztów
+      spree/reimbursement_type:
   devise:
     confirmations:
       confirmed: Twoje konto zostało potwierdzone. Zostałeś zalogowany.
@@ -412,8 +412,8 @@ pl:
         orders: Zamówienia
         overview: Przegląd
         products: Produkty
-        promotions: Promocje
         promotion_categories: Kategorie promocji
+        promotions: Promocje
         properties: Właściwości
         prototypes: Prototypy
         reports: Raporty
@@ -463,8 +463,8 @@ pl:
     authorization_failure: Błąd autoryzacji
     authorized:
     auto_capture:
+    available: 'Dostępny'
     available_on: Dostępne od
-    discontinue_on: Dostępne do
     average_order_value:
     avs_response:
     back: Powrót
@@ -518,6 +518,7 @@ pl:
     clear_cache: Wyczyść cache
     clear_cache_ok:
     clear_cache_warning:
+    clear_cache_warning: 'Wyczyszczenie cache'a spowoduje tymczasowe zmniejszenie wydajności.'
     click_and_drag_on_the_products_to_sort_them:
     clone: Powiel
     close: Zamknij
@@ -611,6 +612,7 @@ pl:
     destination: Przeznaczenie
     destroy: Zniszcz
     details: Szczegóły
+    discontinue_on: Dostępne do
     discount_amount: Wielkość rabatu
     dismiss_banner: Dziękuję, ale nie! Nie interesuje mnie to i nie wyświetlaj więcej tej wiadomości
     display: Wyświetl
@@ -706,8 +708,10 @@ pl:
     i18n:
       available_locales: Dostępne ustawienia regionalne
       language: Język
+      locales_displayed_on_frontend_select_box: 'Języki wyświetlone na stronie głównej'
       localization_settings: Ustawienia regionalne
       this_file_language: Polski (PL)
+      use_app_default: 'Użyj wartości domyślnej'
     icon: Ikona
     identifier:
     image: Obraz
@@ -818,8 +822,11 @@ pl:
     new_prototype: Nowy prototyp
     new_refund:
     new_refund_reason:
+    new_refund_reason: 'Dodaj nowy powód'
+    new_reimbursement_type: 'Dodaj nowy rodzaj'
     new_return_authorization: Nowa autoryzacja powrotna
     new_rma_reason:
+    new_rma_reason: 'Dodaj nowy powód'
     new_shipment_at_location:
     new_shipping_category: Nowa kategoria wysyłki
     new_shipping_method: Nowa metoda wysyłki
@@ -827,6 +834,7 @@ pl:
     new_stock_location: Nowa lokalizacja magazynu
     new_stock_movement: Nowe przesunięcie magazynowe
     new_stock_transfer: Nowe przeniesienie magazynowe
+    new_store_credit_category: 'Dodaj nową kategorię'
     new_tax_category: Nowa kategoria podatkowa
     new_tax_rate: Nowa stawka podatkowa
     new_taxon: Nowy takson
@@ -850,7 +858,6 @@ pl:
     none: Brak
     none_selected:
     normal_amount: Zwykład ilość
-    available: 'Dostępny'
     not: nie
     not_available: Niedostępne
     not_enough_stock: Zbyt mała ilość towaru w lokalizacji źródłowej, by dokończyć to przeniesienie.
@@ -874,8 +881,6 @@ pl:
     option_values: Wartości opcji
     optional: Opcjonalny
     options: Opcje
-    tags: 'Etykiety'
-    tags_placeholder: 'Wybierz etykietę'
     or: lub
     or_over_price: "%{price} lub więcej"
     order: Zamówienie
@@ -1071,6 +1076,7 @@ pl:
     refund: Zwrot funduszy
     refund_amount_must_be_greater_than_zero:
     refund_reasons:
+    refund_reasons: 'Powody do zwrotu'
     refunded_amount:
     refunds:
     register: Zarejestruj
@@ -1093,6 +1099,7 @@ pl:
     reimbursement_type:
     reimbursement_type_override:
     reimbursement_types:
+    reimbursement_types: 'Rodzaje zwrotów'
     reimbursements:
     reject:
     rejected:
@@ -1109,6 +1116,7 @@ pl:
     return: zwróć
     return_authorization: Autoryzacja zwrotu
     return_authorization_reasons:
+    return_authorization_reasons: 'Powody autoryzacji zwrotnej'
     return_authorization_updated: Uaktualniono autoryzację zwrotu
     return_authorizations: Autoryzacje zwrotu
     return_item_inventory_unit_ineligible:
@@ -1263,6 +1271,8 @@ pl:
     stock_transfers: Przeniesienia magazynu
     stop: Zatrzymaj
     store: Zachowaj
+    store_credit_categories: 'Kategorie kredytu'
+    stores: 'Sklepy'
     street_address: Adres ulicy
     street_address_2: Adres ulicy (cd.)
     subtotal: Suma częściowa
@@ -1274,6 +1284,8 @@ pl:
     successfully_signed_up_for_analytics: Zarejestrowano w Analityce Spree
     successfully_updated: Uaktualniono %{resource}!
     summary:
+    tags: 'Etykiety'
+    tags_placeholder: 'Wybierz etykietę'
     tax: Podatek
     tax_categories: Kategorie podatkowe
     tax_category: Kategoria podatkowa
@@ -1291,6 +1303,8 @@ pl:
       match_any:
     taxonomies: Taksonomie
     taxonomy: Taksonomia
+    taxonomy_brands_name: 'Marki'
+    taxonomy_categories_name: 'Kategorie'
     taxonomy_edit: Edycja taksonomii
     taxonomy_tree_error: "Żądana zmiana nie została zaakceptowana i drzewo wróciło do poprzedniego stanu, spróbuj ponownie."
     taxonomy_tree_instruction: "* Menu dla dodawania, usuwania lub sortowania dziecka dostępne jest pod prawym przyciskiem myszy."
