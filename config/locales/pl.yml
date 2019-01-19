@@ -198,7 +198,7 @@ pl:
         spree/store:
           attributes:
             base:
-              cannot_destroy_default_store: 
+              cannot_destroy_default_store: Nie można usunąć domyślnej witryny sklepowej
     models:
       spree/address:
         one: Adres
@@ -399,6 +399,7 @@ pl:
     add_state: Dodaj stan
     add_stock: Dodaj magazyn
     add_stock_management: Dodaj zarządzanie magazynem
+    add_store: Dodaj witrynę sklepową
     add_to_cart: Dodaj do koszyka
     add_variant: Dodaj odmianę
     additional_item: Dodatkowy koszt jednostki
@@ -437,6 +438,7 @@ pl:
         order_history: Historia zamówienia
         order_num: Numer zamówienia
         orders: Zamówienia
+        stores: Witryny sklepowe
         user_information: Informacje o użytkowniku
     administration: Administracja
     advertise: 
@@ -1305,9 +1307,10 @@ pl:
     stock_transfer: Przeniesienie magazynu
     stock_transfers: Przeniesienia magazynu
     stop: Zatrzymaj
-    store: Witryna
+    store: Witryna sklepowa
     store_credit_categories: Kategorie kredytu
-    stores: Witryny
+    store_default: Domyślna witryna sklepowa
+    stores: Witryny sklepowe
     street_address: Adres ulicy
     street_address_2: Adres ulicy (cd.)
     subtotal: Suma częściowa
@@ -1392,6 +1395,7 @@ pl:
     unshippable_items: Pozycje, których nie można wysłać
     update: Uaktualnij
     updating: Uaktualnienie
+    url: URL
     usage_limit: Limit wykorzystania
     use_app_default: Użyj wartości domyślnej
     use_billing_address: Taki sam jak do zapłaty
